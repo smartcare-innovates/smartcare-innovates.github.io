@@ -1,0 +1,25 @@
+body{
+    background-color: #dadadae8;
+    margin: 0;
+}
+#chicken{
+    background-color: #e47113;
+    padding: 25px;
+    color: #fff;
+}
+#beef{
+    background-color: #a36200;
+    padding: 25px;
+    color: #fff;
+}
+#sushi{
+    background-color: #f77913;
+    padding: 25px;
+    color: #fff;
+}
+#header-nav{
+    min-height: 70px;
+}
+#brand{
+    margin-top: -20px;
+}

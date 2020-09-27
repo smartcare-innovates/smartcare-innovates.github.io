@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color: #e8e8e8;
+}
+.video-background {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #625261
+}
+#bgvid{
+  width: 100%;
+}
+.intro {position: absolute; 
+  top: 50%;
+  width: 100%;
+  color: #a6a6a4;
+}
+.navbar-header{
+  min-height: 70px;
+  margin: 0;
+}
+img{
+  width: 100%;
+  min-height: 100px;
+}
+#navbarbg{
+  background-color: #a6a6a4;
+}
+footer{
+  background-color: #a6a6a4;
+  padding: 30px;
+  min-height: 70px;
+  text-align: center;
+  font-size: 1em;
+  margin: 0;
+}
+#components{
+  background-color: #89beb3;
+  margin-top: 0;
+  color: #625261;
+  padding: 10px;
+  font-size: 20px;
+}
+#about{
+  background-color: #89beb3;
+  margin-top: 0;
+  color: #625261;
+  padding: 10px;
+  font-size: 20px;
+}
+li{
+  list-style: none;
+  text-align: justify;
+}
+
+@media screen and (max-width:767px){
+  #bgvid{
+    width: 100%;
+    min-height: 50%;
+  }
+  .intro {
+    position: absolute; 
+    top: 14%;
+    width: 100%;
+    color: #a6a6a4;
+    font-size: 15px
+  }
+}
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
