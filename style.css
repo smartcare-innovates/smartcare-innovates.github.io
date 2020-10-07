@@ -3,25 +3,26 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 body{
   overflow-x: hidden;
   font-family: 'Lato', sans-serif;
-  color: #e8e8e8;
+  background-color: bisque;
+  color:brown;
+  font-size: 20px;
 }
 .video-background {
   position: relative;
   width: 100%;
-  min-height: 100vh;
-  background-color: #625261
 }
 #bgvid{
   width: 100%;
+  color: azure;
 }
 .intro {position: absolute; 
   top: 50%;
   width: 100%;
-  color: #a6a6a4;
 }
 .navbar-header{
   min-height: 70px;
@@ -32,46 +33,39 @@ img{
   min-height: 100px;
 }
 #navbarbg{
-  background-color: #a6a6a4;
+  background-color: coral;
+  font-weight: bold;
+  color:beige;
 }
 footer{
-  background-color: #a6a6a4;
   padding: 30px;
   min-height: 70px;
   text-align: center;
-  font-size: 1em;
-  margin: 0;
-}
-#components{
-  background-color: #89beb3;
-  margin-top: 0;
-  color: #625261;
-  padding: 10px;
-  font-size: 20px;
-}
-#about{
-  background-color: #89beb3;
-  margin-top: 0;
-  color: #625261;
-  padding: 10px;
-  font-size: 20px;
+  font-size: 1.5em;
+  background-color: coral;
+  color: beige;
 }
 li{
-  list-style: none;
+  list-style-type: square;
   text-align: justify;
 }
 
 @media screen and (max-width:767px){
   #bgvid{
     width: 100%;
-    min-height: 50%;
+    min-height: 100%;
   }
   .intro {
     position: absolute; 
-    top: 14%;
+    top: 40%;
+    bottom: 10%;
     width: 100%;
-    color: #a6a6a4;
-    font-size: 15px
+    font-size: 0.5em;
+    padding-bottom: 30px;
+    line-height: 30px;
+  }
+  body{
+    font-size: 2em;
   }
 }
 
