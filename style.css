@@ -8,7 +8,7 @@
 body{
   overflow-x: hidden;
   font-family: 'Lato', sans-serif;
-  background-color: bisque;
+  background-color: #ffe4c4;
   color:#a52a2a;
   font-size: 20px;
 }
@@ -18,10 +18,11 @@ body{
 }
 #bgvid{
   width: 100%;
-  color: azure;
+  color: #f0ffff;
 }
-.intro {position: absolute; 
-  top: 50%;
+.intro {
+  position: absolute; 
+  top: 20%;
   width: 100%;
 }
 .navbar-header{
@@ -55,7 +56,7 @@ li{
 }
 .team{
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(2,1fr);
   grid-gap: 40px;
 }
 @media screen and (max-width:767px){
@@ -76,6 +77,6 @@ li{
     font-size: 2em;
   }
   .team{
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
   }
 }
