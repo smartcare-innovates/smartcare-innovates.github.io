@@ -9,7 +9,7 @@ body{
   overflow-x: hidden;
   font-family: 'Lato', sans-serif;
   background-color: bisque;
-  color:brown;
+  color:#a52a2a;
   font-size: 20px;
 }
 .video-background {
@@ -33,7 +33,7 @@ img{
   min-height: 100px;
 }
 #navbarbg{
-  background-color: coral;
+  background-color: #ff7f50;
   font-weight: bold;
   color:beige;
 }
@@ -42,14 +42,22 @@ footer{
   min-height: 70px;
   text-align: center;
   font-size: 1.5em;
-  background-color: coral;
+  background-color: #ff7f50;
   color: beige;
 }
 li{
   list-style-type: square;
   text-align: justify;
 }
-
+.team-mates{
+  border: 2px solid #a52a2a;
+  width: 100%;
+}
+.team{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 40px;
+}
 @media screen and (max-width:767px){
   #bgvid{
     width: 100%;
@@ -57,34 +65,17 @@ li{
   }
   .intro {
     position: absolute; 
-    top: 40%;
-    bottom: 10%;
+    top: 30%;
     width: 100%;
-    font-size: 0.5em;
     padding-bottom: 30px;
-    line-height: 30px;
+  }
+  .intro h2{
+    font-size: 1.2em;
   }
   body{
     font-size: 2em;
   }
+  .team{
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
-
-
-/*============ BOOTSTRAP BREAK POINTS:
-
-Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
-
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-
-=============*/
